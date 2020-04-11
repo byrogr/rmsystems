@@ -595,6 +595,30 @@ video {
   height: auto;
 }
 
+@font-face {
+  font-family: InknutAntiqua-Black;
+
+  font-weight: normal;
+
+  src: url('/fonts/inknutantiqua/InknutAntiqua-Regular.woff') format('woff')
+}
+
+@font-face {
+  font-family: InknutAntiqua-Black;
+
+  font-weight: bold;
+
+  src: url('/fonts/inknutantiqua/InknutAntiqua-Bold.woff') format('woff')
+}
+
+@font-face {
+  font-family: InknutAntiqua-Black;
+
+  font-weight: bolder;
+
+  src: url('/fonts/inknutantiqua/InknutAntiqua-ExtraBold.woff') format('woff')
+}
+
 .container {
   width: 100%;
 }
@@ -3799,6 +3823,10 @@ video {
 
 .font-mono {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-title {
+  font-family: InknutAntiqua-Black;
 }
 
 .font-hairline {
@@ -17427,6 +17455,10 @@ video {
 
   .sm\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-title {
+    font-family: InknutAntiqua-Black;
   }
 
   .sm\:font-hairline {
@@ -31058,6 +31090,10 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-title {
+    font-family: InknutAntiqua-Black;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -44687,6 +44723,10 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-title {
+    font-family: InknutAntiqua-Black;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -58314,6 +58354,10 @@ video {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-title {
+    font-family: InknutAntiqua-Black;
   }
 
   .xl\:font-hairline {

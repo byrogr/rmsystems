@@ -1,6 +1,9 @@
 module.exports = {
   theme: {
     extend: {
+      fontFamily: {
+        title: ['InknutAntiqua-Black']
+      },
       colors: {
         primary: '#31afb4',
         secondary: '#115571',

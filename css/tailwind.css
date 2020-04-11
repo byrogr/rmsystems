@@ -1,5 +1,23 @@
 @tailwind base;
 
+@font-face {
+    font-family: InknutAntiqua-Black;
+    font-weight: normal;
+    src: url('/fonts/inknutantiqua/InknutAntiqua-Regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: InknutAntiqua-Black;
+    font-weight: bold;
+    src: url('/fonts/inknutantiqua/InknutAntiqua-Bold.woff') format('woff')
+}
+
+@font-face {
+    font-family: InknutAntiqua-Black;
+    font-weight: bolder;
+    src: url('/fonts/inknutantiqua/InknutAntiqua-ExtraBold.woff') format('woff')
+}
+
 @tailwind components;
 
 @tailwind utilities;
