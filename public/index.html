@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RMSYSTEMS</title>
+    <title>Desarrollo de Software | RMSYSTEMS</title>
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="shortcut icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="shortcut icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -13,15 +13,15 @@
 
     <script src="https://kit.fontawesome.com/8f71901af5.js" crossorigin="anonymous"></script>
 </head>
-<body class="overflow-x-hidden text-tagline">
+<body class="overflow-x-hidden bg-gray-200 text-tagline">
     <!-- HEADER -->
-    <header id="mainHeader" class="flex h-screen">
-        <div id="video" class="absolute top-0 left-0 w-full h-screen overflow-hidden">
+    <header id="mainHeader" class="flex w-screen h-screen">
+        <div id="video" class="absolute top-0 left-0 w-screen h-screen overflow-hidden">
             <video class="min-w-full min-h-full" src="media/video.mp4" autoplay loop></video>
         </div>
         <div id="overlay" class="bg-primary h-screen w-screen absolute top-0 left-0 opacity-75 z-10"></div>
         <div id="content" class="w-screen h-full overflow-hidden z-20">
-            <div id="topbar" class="flex justify-between items-center px-8">
+            <div id="topbar" class="flex justify-between items-center container mx-auto">
                 <div id="logo">
                     <img class="py-2" src="img/logo.png" alt="RMSYSTEMS">
                 </div>
@@ -39,73 +39,63 @@
     <!-- FIN HEADER -->
 
     <!-- CONTACTO -->
-    <div id="contacto" class="w-screen h-screen flex-col bg-gray-300">
-        <h3 class="text-2xl font-title uppercase tracking-wider text-secondary text-center py-8">Cu&eacute;ntanos tu proyecto</h3>
-        <div class="w-screen flex">
-            <form action="" class="w-1/2 px-8">
-                <div class="mb-4">
-                    <label class="block mb-2" for="txtNombre">Nombre completo <small class="text-complementary">(*)</small></label>
-                    <input class="w-full h-10 border border-gray-400 rounded shadow-xs" type="text" name="" id="">
+    <div id="contacto" class="w-screen h-screen">
+        <div class="container mx-auto pt-20 pb-16">
+            <h3 class="text-3xl font-title uppercase tracking-wider text-secondary pb-4 text-center lg:text-left">Cu&eacute;ntanos tu proyecto</h3>
+
+            <p class="text-center px-4 lg:text-left lg:px-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora error explicabo corporis assumenda, quas in quae dolore impedit libero quasi. Tempora accusantium incidunt earum similique at. Quo autem voluptatem eius.</p>
+        </div>
+        
+        
+        <div class="container mx-auto px-6 xl:px-0">
+            <form action="" class="grid grid-cols-2 gap-4 mb-16">
+                <div class="mb-4 col-span-2 lg:col-span-1">
+                    <input class="input-control" type="text" placeholder="Nombre completo *">
                 </div>
-                <div class="mb-4">
-                    <label class="block mb-2" for="txtNombre">Correo electrónico <small class="text-complementary">(*)</small></label>
-                    <input class="w-full h-10 border border-gray-400 rounded shadow-xs" type="text" name="" id="">
+                
+                <div class="mb-4 col-span-2 lg:col-span-1">
+                    <input class="input-control" type="text" placeholder="Correo electrónico *">
                 </div>
-                <div class="mb-4">
-                    <label class="block mb-2" for="txtNombre">¿Cual es tu idea? <small class="text-complementary">(*)</small></label>
-                    <input class="w-full h-10 border border-gray-400 rounded shadow-xs" type="text" name="" id="">
+                
+                <div class="mb-4 col-span-2">
+                    <input class="input-control" type="text" placeholder="¿Cual es tu idea?">
                 </div>
-                <div class="mb-4">
-                    <label class="block mb-2" for="txtNombre">Cu&eacute;ntamos de que se trata <small class="text-complementary">(*)</small></label>
-                    <textarea class="w-full border border-gray-400 rounded shadow-xs" rows="5"></textarea>
+                
+                <div class="mb-4 col-span-2">
+                    <textarea class="textarea-control" rows="5" placeholder="Cu&eacute;ntamos de que se trata ..."></textarea>
                 </div>
-                <div>
-                    <button class="w-full rounded shadow-xs border border-secondary text-secondary font-semibold  hover:bg-secondary hover:text-white hover:border-transparent h-10">
+                
+                <div class="col-span-2 lg:col-span-1">
+                    <button class="btn w-full lg:w-1/2 h-10">
                         Enviar &rarr;
                     </button>
                 </div>
             </form>
-            <div class="w-1/2 pr-8 flex items-center">
-                <div>
-                    <p class="text-center">Somos un equipo de profesionales con m&aacute;s de 8 a&ntilde;os en el desarrollo y gestión de proyectos de software con tecnolog&iacute;as PHP y Java, aplicando metodolog&iacute;as &aacute;giles como Scrum.</p>
-                    
-                    <p class="text-center font-bold mt-16">¡Estamos en contacto!</p>
-                    <div class="flex justify-around mt-4">
-                        <div class="text-xl">
-                            <i class="fas fa-mobile"></i> 997880188
-                        </div>
-                        <div class="text-xl">
-                            <i class="far fa-envelope"></i> contacto@rmsystems.pe
-                        </div>
-                        <div class="text-xl">
-                            <i class="fab fa-skype"></i> consultas.rmsystems
-                        </div>
-                    </div>
 
-                    <p class="text-center font-bold mt-16">¡S&iacute;guenos!</p>
-                    <div class="flex justify-around mt-4">
-                        <div class="text-4xl text-gray-500 hover:text-secondary">
-                            <i class="fab fa-facebook-f"></i> 
-                        </div>
-                        <div class="text-4xl text-gray-500 hover:text-secondary">
-                            <i class="fab fa-twitter"></i>
-                        </div>
-                        <div class="text-4xl text-gray-500 hover:text-secondary">
-                            <i class="fab fa-instagram"></i>
+            <!-- FOOTER -->
+            <footer id="mainFooter" class="border-gray-400 border-t h-16">
+                <div class="flex flex-col justify-center items-center py-8 container mx-auto">
+                    <p class="text-gray-500 text-md text-center">&copy; 2020 RM Systems. Todos los derechos reservados</p>
+                    <div class="flex items-center justify-center container mx-auto py-4">
+                        <div class="grid grid-cols-3 gap-4">
+                            <div class="text-2xl text-gray-500 hover:text-secondary">
+                                <a href="https://facebook.com/rmsystemspe" target="_blank"><i class="fab fa-facebook-f"></i></a> 
+                            </div>
+                            <div class="text-2xl text-gray-500 hover:text-secondary">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="text-2xl text-gray-500 hover:text-secondary">
+                                <i class="fab fa-instagram"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                
+            </footer>
+            <!-- FIN FOOTER -->
+
         </div>
     </div>
     <!-- FIN CONTACTO -->
-
-    <!-- FOOTER -->
-    <footer id="mainFooter" class="bg-tagline w-full h-12 px-8">
-        <div class="flex justify-center items-center h-full">
-            <p class="text-white text-sm font-light">RM Systems &copy; Todos los derechos reservados</p>
-        </div>
-    </footer>
-    <!-- FIN FOOTER -->
 </body>
 </html>

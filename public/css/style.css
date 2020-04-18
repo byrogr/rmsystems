@@ -623,6 +623,44 @@ html {
   scroll-behavior: smooth;
 }
 
+.input-control {
+  width: 100%;
+  height: 2.5rem;
+  border-width: 1px;
+  border-color: #cbd5e0;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  padding: 1rem
+}
+
+.textarea-control {
+  width: 100%;
+  border-width: 1px;
+  border-color: #cbd5e0;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  padding: 1rem
+}
+
+.btn {
+  width: 25%;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  border-width: 1px;
+  border-color: #115571;
+  color: #115571;
+  font-weight: 600;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.btn:hover {
+  background-color: #115571;
+  color: #fff;
+  border-color: transparent
+}
+
 .container {
   width: 100%;
 }
