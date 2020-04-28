@@ -600,7 +600,7 @@ video {
 
   font-weight: normal;
 
-  src: url('/fonts/inknutantiqua/InknutAntiqua-Regular.woff') format('woff')
+  src: url('/public/fonts/inknutantiqua/InknutAntiqua-Regular.woff') format('woff')
 }
 
 @font-face {
@@ -608,7 +608,7 @@ video {
 
   font-weight: bold;
 
-  src: url('/fonts/inknutantiqua/InknutAntiqua-Bold.woff') format('woff')
+  src: url('/public/fonts/inknutantiqua/InknutAntiqua-Bold.woff') format('woff')
 }
 
 @font-face {
@@ -616,7 +616,7 @@ video {
 
   font-weight: bolder;
 
-  src: url('/fonts/inknutantiqua/InknutAntiqua-ExtraBold.woff') format('woff')
+  src: url('/public/fonts/inknutantiqua/InknutAntiqua-ExtraBold.woff') format('woff')
 }
 
 html {
@@ -643,7 +643,6 @@ html {
 }
 
 .btn {
-  width: 25%;
   border-radius: 0.25rem;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   border-width: 1px;

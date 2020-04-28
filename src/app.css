@@ -1,0 +1,43 @@
+@tailwind base;
+
+@font-face {
+    font-family: InknutAntiqua-Black;
+    font-weight: normal;
+    src: url('/public/fonts/inknutantiqua/InknutAntiqua-Regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: InknutAntiqua-Black;
+    font-weight: bold;
+    src: url('/public/fonts/inknutantiqua/InknutAntiqua-Bold.woff') format('woff')
+}
+
+@font-face {
+    font-family: InknutAntiqua-Black;
+    font-weight: bolder;
+    src: url('/public/fonts/inknutantiqua/InknutAntiqua-ExtraBold.woff') format('woff')
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.input-control {
+    @apply w-full h-10 border border-gray-400 rounded shadow-xs p-4
+}
+
+.textarea-control {
+    @apply w-full border border-gray-400 rounded shadow-xs p-4
+}
+
+.btn {
+    @apply rounded shadow-xs border border-secondary text-secondary font-semibold transition duration-150 ease-in-out
+}
+
+.btn:hover {
+    @apply bg-secondary text-white border-transparent
+}
+
+@tailwind components;
+
+@tailwind utilities;
